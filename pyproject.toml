@@ -1,0 +1,9 @@
+[project]
+name = "farmacia"
+version = "0.1.0"
+description = "Farmacia"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ruff>=0.15.11",
+]
