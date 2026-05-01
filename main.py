@@ -49,7 +49,6 @@ except StockInsuficienteError as e:
     print(e)
 
 venta.generar_recibo()
-print()
 farmacia.stock()
 persistencia = Persistencia()
 persistencia.guardar_datos(farmacia)
